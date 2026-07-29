@@ -1,0 +1,30 @@
+# ---- Core (existing) ----
+openai>=1.50.0
+docker>=7.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+
+# ---- LangChain / LangGraph ----
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+langgraph-checkpoint-sqlite>=2.0.0
+
+# ---- MCP (Model Context Protocol) ----
+mcp>=1.0.0
+langchain-mcp-adapters>=0.1.0
+
+# ---- Schema / data parsing (used inside sandbox + agent) ----
+pydantic>=2.7.0
+jsonschema>=4.21.0
+pyyaml>=6.0
+pandas>=2.0.0
+
+# ---- Async / HTTP for tool calls ----
+aiohttp>=3.9.0
+httpx>=0.27.0
+
+# ---- Notifications / threat intel ----
+slack-sdk>=3.27.0
